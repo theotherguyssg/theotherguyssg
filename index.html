@@ -20,6 +20,24 @@
 	.zoom:hover { 
       transform: scale(1.1); 
 	}
+	
+		.blink{
+		width:200px;
+		height: 50px;		
+		text-align: center;
+		line-height: 25px;
+		animation: blink 1.5s linear infinite;
+		color:#f55656;
+		letter-spacing:1px;
+		font-weight:bold;
+		font-size:20px;
+	}
+	
+	@keyframes blink{
+		0%{opacity: 0;}
+		50%{opacity: .5;}
+		100%{opacity: 1;}
+
 	</style>
 
 </head>
@@ -41,7 +59,7 @@
         <nav class="classy-navbar justify-content-between" id="pocaNav">
 
           <!-- Logo -->
-          <a class="nav-brand" href="index.html"><img src="./img/logo2.png" alt=""></a>
+          <a class="nav-brand" href="index.html"><img src="./img/newlogo2.png" alt=""></a>
 
           <!-- Navbar Toggler -->
           <div class="classy-navbar-toggler">
@@ -114,31 +132,35 @@
                 </div>
                 <div class="poca-music-content">
 
-                  <span class="music-published-date">Available On - November 19, 2019</span>	
+                  <!--<span class = "blink" class="music-published-date">Available On - November 22nd, 2019!</span>	-->
                   <h2>Queen Of My Heart - The Other Guys</h2>
                   <div class="music-meta-data">
                     <p>By <a href="#Member" class="music-author">Wymo</a> | <a href="#" class="music-catagory">Soft Rock</a> | <a class="music-duration">04:13</a></p>
                   </div>
-                  <!-- Music Player -->
+                  <!-- Music Player 
                   <div class="poca-music-player">
                     <audio preload="auto" controls>
                       <source src="audio/Queen of my Heart.wav">
                     </audio>
-                  </div>
+                  </div> -->
                   <!-- Likes, Share & Download -->
                   <div class="likes-share-download d-flex align-items-center justify-content-between">
-                    <a ></a>
+                    <a > <span class = "blink" class="music-published-date">Available On - November 22nd, 2019!</span>	</a>
                     <div>
                       <a></a>
                       <a href="#"><i class="fa fa-download" aria-hidden="true"></i> Download</a>
                     </div>
+					
                   </div>
+				  
+				  
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+		
+	  </div>
 
       <!-- Single Welcome Slide -->
       <div class="welcome-welcome-slide bg-img bg-overlay" style="background-image: url(img/grp1.png);">
@@ -346,7 +368,7 @@
               <h5>Alan</h5>
               <span>Bass | Backup Vocal</span>
 			    <div class="team-social" style="padding:5px">			
-					    <a style="color:rgb(164, 166, 167)" href="https://www.facebook.com/pangzter?ref=br_rs"><i class="fa fa-2x fa-facebook"></i></a>						
+					    <a style="color:lightblue" href="https://www.facebook.com/pangzter?ref=br_rs"><i class="fa fa-2x fa-facebook"></i></a>						
 					    <a style="color:rgb(164, 166, 167)" href="https://www.instagram.com/pangzter/?hl=en"><i class="fa fa-2x fa-instagram"></i></a>
 					    </div>
             </div>
@@ -361,7 +383,7 @@
               <h5>Art</h5>
               <span>Keyboard | Keytar</span>
 			      <div class="team-social" style="padding:5px">					  
-					    <a style="color:rgb(164, 166, 167)" href="https://www.facebook.com/art.yotsapat"><i class="fa fa-2x fa-facebook"></i></a>					
+					    <a style="color:lightblue" href="https://www.facebook.com/art.yotsapat"><i class="fa fa-2x fa-facebook"></i></a>					
 					    <a style="color:rgb(164, 166, 167)" href="https://www.instagram.com/riddle_art/?hl=en"><i class="fa fa-2x fa-instagram"></i></a>
 					    </div>
             </div>
@@ -376,7 +398,7 @@
               <h5>Kay</h5>
               <span>Drums | Cajon</span>
 			    <div class="team-social" style="padding:5px">					  
-					    <a style="color:rgb(164, 166, 167)" href="https://www.facebook.com/sgt.patchpillay"><i class="fa fa-2x fa-facebook"></i></a>					
+					    <a style="color:lightblue" href="https://www.facebook.com/sgt.patchpillay"><i class="fa fa-2x fa-facebook"></i></a>					
 					    <a style="color:rgb(164, 166, 167)" href="https://www.instagram.com/sgtpatch/"><i class="fa fa-2x fa-instagram"></i></a>
 			      </div>
             </div>
@@ -391,7 +413,7 @@
               <h5>Wymo</h5>
               <span>Vocal | Guitar</span>
 			   <div class="team-social" style="padding:5px">					  
-					    <a style="color:rgb(164, 166, 167)" href="https://www.facebook.com/wymowaiyan96"><i class="fa fa-2x fa-facebook"></i></a>					
+					    <a style="color:lightblue" href="https://www.facebook.com/wymowaiyan96"><i class="fa fa-2x fa-facebook"></i></a>					
 					    <a style="color:rgb(164, 166, 167)" href="https://www.instagram.com/mrwymo/"><i class="fa fa-2x fa-instagram"></i></a>
 					    </div>
             </div>
